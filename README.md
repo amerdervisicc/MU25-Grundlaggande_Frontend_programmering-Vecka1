@@ -11,6 +11,7 @@ Denna vecka introduceras de studerande till HTML – webbsidans skelett. Fokus l
 6. Skriva enkel, semantisk HTML för att strukturera innehållet på en webbsida.
 11. Debugga och testa enkel HTML.
 
+#
 📌 Vad ska ingå?
 ✅ HTML5-struktur: html, head, body
 ✅ HTML-elementen (t.ex. <h1>, <p>, <img>, <a>, <div>, <span>).
