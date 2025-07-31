@@ -11,8 +11,8 @@ Denna vecka introduceras de studerande till HTML – webbsidans skelett. Fokus l
 1. Grundläggande förståelse för HTML och dess semantiska betydelse.
 
 ## Denna vecka ska de studerande lära sig **färdigheter i (att)**:
-1. Skriva enkel, semantisk HTML för att strukturera innehållet på en webbsida.
-2. Debugga och testa enkel HTML.
+6. Skriva enkel, semantisk HTML för att strukturera innehållet på en webbsida.
+11.. Debugga och testa enkel HTML.
 
 ---
 
