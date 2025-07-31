@@ -1,6 +1,6 @@
 # HTML-och-CSS-intro
 
-## Vecka 2 - HTML och CSS
+## HTML och CSS
 
 Här är veckans övningar. Mycket fokus på just HTML i beskrivningarna och instruktionerna i dessa övningar. 
 Just CSS blir lite mer fritt att testa olika regler för hur saker ska se ut om inte annat är specifierat.
