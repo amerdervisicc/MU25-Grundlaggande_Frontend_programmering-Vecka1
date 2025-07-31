@@ -14,7 +14,7 @@ Denna vecka introduceras de studerande till HTML – webbsidans skelett. Fokus l
 #
 📌 Vad ska ingå?
 ✅ HTML5-struktur: html, head, body
-✅ HTML-elementen (t.ex. <h1>, <p>, <img>, <a>, <div>, <span>).
+✅ HTML-elementen "(t.ex. <h1>, <p>, <img>, <a>, <div>, <span>)."
 ✅ Semantiska taggar: header, main, section, article, footer, aside
 ✅ Rubriker, paragrafer, listor, länkar, bilder
 ✅ Attribut och alt-texter
