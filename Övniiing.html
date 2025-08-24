@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML och CSS Övningar - Vecka 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            color: #7f8c8d;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .author-section {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .skills-list {
+            background-color: #e8f5e8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #27ae60;
+        }
+        
+        .skills-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .skills-list li {
+            background-color: #d5f4e6;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 3px solid #27ae60;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 8px;
+        }
+        
+        .contact-info {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header med sidans titel -->
+        <header>
+            <h1>HTML och CSS Övningar</h1>
+            <p>Grundläggande frontend-programmering - Vecka 1</p>
+        </header>
+
+        <!-- Övning 1: Enkel webbsida med rubriker och stycken -->
+        <main>
+            <h1>Välkommen till HTML-övningarna</h1>
+            <h2>Grunderna i HTML-strukturen</h2>
+            <p>Detta är en övning för att lära sig grunderna i HTML-strukturen och använda rubriker och text på rätt sätt. HTML är byggstenarna för webbplatser och ger struktur åt innehållet.</p>
+            
+            <h3>Varför är HTML viktigt?</h3>
+            <p>HTML (HyperText Markup Language) är standardmarkeringsspråket för att skapa webbsidor. Det definierar strukturen och innehållet på en webbsida genom att använda olika element och taggar.</p>
+            
+            <h3>Semantisk HTML</h3>
+            <p>Genom att använda rätt HTML-element kan vi skapa meningsfull struktur som både människor och webbläsare kan förstå. Detta förbättrar tillgängligheten och SEO för våra webbsidor.</p>
+
+            <!-- Övning 2: Semantiska blockelement för en artikel -->
+            <h2>Kända författare</h2>
+            <p>Här presenteras några av världens mest kända författare och deras bidrag till litteraturen.</p>
+            
+            <section class="author-section">
+                <h3>William Shakespeare</h3>
+                <p>William Shakespeare (1564-1616) var en engelsk dramatiker, poet och skådespelare. Han anses vara den störste författaren i det engelska språket och världens mest framstående dramatiker. Hans verk inkluderar "Romeo och Julia", "Hamlet" och "Macbeth".</p>
+            </section>
+            
+            <section class="author-section">
+                <h3>Jane Austen</h3>
+                <p>Jane Austen (1775-1817) var en engelsk romanförfattare vars verk kännetecknas av skarp social kommentar och realism. Hon är känd för romaner som "Stolthet och fördom", "Emma" och "Förnuft och känsla".</p>
+            </section>
+            
+            <section class="author-section">
+                <h3>J.R.R. Tolkien</h3>
+                <p>J.R.R. Tolkien (1892-1973) var en engelsk författare, poet och filolog. Han är mest känd för sina fantasy-romaner "Hobbiten" och "Sagan om ringen", som har inspirerat generationer av författare och skapat ett helt nytt litterärt genre.</p>
+            </section>
+
+            <!-- Övning 3: Portfolio-grund -->
+            <h2>Min Portfolio</h2>
+            <p>Detta är en grund för min framtida portfolio där jag kan visa upp mina projekt och kunskaper inom webbutveckling.</p>
+            
+            <h3>Om mig</h3>
+            <p>Jag är en student som läser grundläggande frontend-programmering. Jag är passionerad över att lära mig HTML, CSS och JavaScript för att skapa vackra och funktionella webbplatser.</p>
+            
+            <div class="skills-list">
+                <h3>Mina kunskaper och kompetenser</h3>
+                <ul>
+                    <li>Git - versionshantering</li>
+                    <li>HTML - webbstruktur</li>
+                    <li>CSS - webbdesign</li>
+                    <li>JavaScript - programmering (kommer snart)</li>
+                </ul>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Kontaktuppgifter</h3>
+                <p><strong>Email:</strong> student@example.com</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/student" target="_blank">github.com/student</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/student" target="_blank">linkedin.com/in/student</a></p>
+            </div>
+        </main>
+
+        <!-- Footer med publiceringsdatum och copyright -->
+        <footer>
+            <p>Publicerad: <time datetime="2024-01-15">15 januari 2024</time></p>
+            <p>&copy; 2024 HTML och CSS Övningar. Alla rättigheter förbehållna.</p>
+        </footer>
+    </div>
+</body>
+</html>
