@@ -15,7 +15,7 @@
             "name": "Open HTML file in Chrome",
             "request": "launch",
             "type": "chrome",
-            "file": "${workspaceFolder}/index.html",
+            "file": "${workspaceFolder}/övningen.html",
             "webRoot": "${workspaceFolder}"
         },
         {

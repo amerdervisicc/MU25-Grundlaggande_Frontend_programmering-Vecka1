@@ -3,3 +3,25 @@ font-family: 'Arial';
 font-size: 18px;
 color: red;
 }
+body {
+background-color: lightsalmon;
+background: linear-gradient(to right, rgb(11, 11, 126), orange
+
+);
+}
+
+h2 {
+color: blanchedalmond
+}
+
+ul {
+    color: blueviolet
+}
+
+p {
+    color: orangered
+}
+
+.container {
+    color: blue
+}
